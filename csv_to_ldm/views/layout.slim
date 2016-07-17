@@ -1,0 +1,14 @@
+/*Layout.slim provides all the html scaffolding and will be included with every view*/
+doctype html 
+html 
+
+head
+ link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'
+ link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"
+ script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"
+ script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+
+    <div class="container-fluid" style="background-color:black;color:white;padding:5px;">
+    <img src="Developer_header.png" class="img-circle" alt="GoodData Developer">
+    </div>  
+== yield
