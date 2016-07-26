@@ -1,0 +1,41 @@
+{
+  "coord": {
+    "lon": 145.77,
+    "lat": -16.92
+  },
+  "weather": [
+    {
+      "id": 800,
+      "main": "Clear",
+      "description": "clear sky",
+      "icon": "01n"
+    }
+  ],
+  "base": "cmc stations",
+  "main": {
+    "temp": 294.23,
+    "pressure": 1016,
+    "humidity": 100,
+    "temp_min": 294.15,
+    "temp_max": 294.26
+  },
+  "wind": {
+    "speed": 6.12,
+    "deg": 152.005
+  },
+  "clouds": {
+    "all": 0
+  },
+  "dt": 1467042008,
+  "sys": {
+    "type": 1,
+    "id": 8166,
+    "message": 1.4438,
+    "country": "AU",
+    "sunrise": 1466973981,
+    "sunset": 1467014036
+  },
+  "id": 2172797,
+  "name": "Cairns",
+  "cod": 200
+}

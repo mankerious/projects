@@ -1,0 +1,28 @@
+/*Layout.slim provides all the html scaffolding and will be included with every view*/
+doctype html 
+html 
+
+head
+ title>Bootstrap Example
+ meta charset="utf-8"
+ meta name="viewport" content="width=device-width, initial-scale=1"
+ link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'
+ link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"
+ script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"
+ script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+ style
+    /Set height of the grid so .sidenav can be 100% (adjust as needed)
+    .row.content {height: 550px}
+    
+    /Set gray background color and 100% height
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+        
+
+ div class="container-fluid" style="background-color:black;color:white;padding:5px;"
+   img src="Developer_header.png" class="img-circle" alt="GoodData Developer"
+
+    
+== yield
